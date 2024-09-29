@@ -1,0 +1,19 @@
+.countryLogo{
+    height: 5rem;
+   max-width: 100%; 
+}
+.imageContainer{
+    height: 5rem;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 3rem;
+}
+.CountryCardWH{
+    width: 12rem;
+    height: 20rem;
+    /* gap: 5rem; */
+}
+.CountrybackCardWH{
+    width: 12.2rem;
+    height: 20.2rem; 
+}

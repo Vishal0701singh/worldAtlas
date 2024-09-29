@@ -1,0 +1,41 @@
+.spn{
+    color: rgb(154, 156, 158);
+}
+.aboutCard{
+    /* margin-top: 3rem; */
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+.card{
+
+    padding: 20px;
+    box-sizing: border-box;
+    gap: 0.5rem;
+
+    background-color: black;
+    border-radius: 10px;
+    
+}
+.backCard{
+
+    /* background-color: blue; */
+    background: linear-gradient(71deg, #0c0a0e, #5f6fad, #0c0a0e);
+    border-radius: 10px;
+}  
+.backCardWH{
+    width: 20.2rem;
+    height: 15.2rem;
+} 
+.cardWH{
+    width: 20rem;
+    height: 15rem;
+}
+
+
+@media screen and (max-width:950px) {
+
+    .aboutCard{
+        justify-content: center;
+        align-items: center;
+    }
+}

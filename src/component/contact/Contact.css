@@ -1,0 +1,22 @@
+.contactf{
+    width: 100%;
+    gap: 2rem;
+}
+.contactform{
+    gap: 1rem;
+}
+.inputfield{
+    padding: 5px 20px;
+    border: 1px solid white;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    align-items: center;
+    gap: 0.5rem
+}
+.inputWidth{
+    width: 15rem;
+}
+.iptHeight{
+    height: 1.5rem;
+}

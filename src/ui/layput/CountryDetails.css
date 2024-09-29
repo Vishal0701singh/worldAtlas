@@ -1,0 +1,40 @@
+.detailSection{
+    gap: 10%;
+    height: auto;
+    border-bottom: 2px solid rgb(97, 96, 96);
+    border-top: 2px solid rgb(97, 96, 96);
+    margin-bottom: 2rem;
+}
+.countryLogoBig{
+    width: 40%;
+    height: auto;
+}
+.details{
+
+    gap: 1rem;
+    width: 50%;
+    height: 30rem;
+    /* border-left: 2px solid white; */
+}
+.infoContainer{
+    gap: 0.5rem;
+}
+.card-title{
+    font-size:3rem;
+}
+
+
+@media screen and (max-width: 900px){
+    .detailSection{
+        
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .countryLogoBig{
+        margin-top: 1rem ;
+    }
+    .infoContainer{
+        margin-bottom: 1rem;
+    }
+ }

@@ -1,0 +1,55 @@
+.footer-section{
+    width: 100%;
+    height: 10rem;
+}
+.contactsection{
+    margin: auto;
+    width: 100%;
+    height: 5rem;
+    background-color: rgb(28, 27, 27);
+    /* flex-wrap: wrap; */
+    
+}
+.contactbox{
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.footer-contact{
+    /* margin: 0 auto; */
+    gap: 1rem;
+}
+.footer-contact-text{
+    gap: 0.3rem;
+}
+.icon{
+    color: blue;
+    font-size: 2rem;
+}
+.copyright-area{
+    width: 100%;
+    height: 5rem;
+    background-color: rgb(40, 41, 43);
+}
+.copyright{
+    height: 5rem;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.copyrigthcontainer{
+    width: 100%;
+    height: 5rem;
+}
+.footer-menu ul{
+    gap: 2rem;
+}
+
+
+
+@media screen and (max-width: 900px){
+   .contactsection {
+    flex-direction: column;
+        height: 10rem;
+        gap: 2rem;
+      }
+}

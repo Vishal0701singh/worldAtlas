@@ -1,0 +1,11 @@
+.filter{
+    width: 100%;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 950px) {
+   .filter{
+    gap: 1rem;
+   }
+  }
+  
